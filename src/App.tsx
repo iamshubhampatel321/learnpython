@@ -1980,7 +1980,7 @@ class BankAccount:
     # Public method - anyone can use
     def deposit(self, amount):
         self.__balance += amount
-        print(f"Deposited ${amount}")
+        print(f"Deposited {amount}")
     
     # Protected method
     def _generate_statement(self):
